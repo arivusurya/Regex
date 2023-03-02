@@ -8,7 +8,7 @@ namespace UserValidation{
             User userinfo = new User();
             Boolean Firstname = userinfo.ValidateName("Zeus");
            if(Firstname == false){
-               Console.WriteLine("Enter the first name with capitalze and atleast had a 3 character");
+               Console.WriteLine("Enter the last name with capitalze and atleast had a 3 character");
            }
         }
     }
