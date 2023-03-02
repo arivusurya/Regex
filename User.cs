@@ -21,7 +21,7 @@ namespace UserValidation{
                 return Regex.IsMatch(Number,Pattern);
             }
              public Boolean validPassWord(string Password){
-                string Pattern = "^(?=.*[A-Z])(?=.*\\d).{8,}$";
+                string Pattern = "^(?=.*[A-Z])(?=.*\\d)(?=.*[@#$%*.&]).{8,}$";
                 return Regex.IsMatch(Password,Pattern);
             }
 
