@@ -20,6 +20,11 @@ namespace UserValidation{
                 string Pattern = "^91 [0-9]{10}";
                 return Regex.IsMatch(Number,Pattern);
             }
+             public Boolean validPassWord(string Password){
+                string Pattern = ".{8,}";
+                return Regex.IsMatch(Password,Pattern);
+            }
+
       
         }
 

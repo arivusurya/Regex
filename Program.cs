@@ -6,14 +6,14 @@ namespace UserValidation{
         public static void Main(string[] args)
         {
             User userinfo = new User();
-            Console.WriteLine("enter your number");
-            string num =  Console.ReadLine();
-            Boolean value = userinfo.validNumber(num);
+            Console.WriteLine("enter your password");
+            string Password =  Console.ReadLine();
+            Boolean value = userinfo.validPassWord(Password);
 
             if(value){
-                Console.WriteLine("valid Number");
+                Console.WriteLine("valid password");
             }else{
-                Console.WriteLine("invalid Number");
+                Console.WriteLine("invalid password");
             }
            }
         }
