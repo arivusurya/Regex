@@ -15,6 +15,11 @@ namespace UserValidation{
                 string Pattern ="^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+([.-][a-zA-Z0-9]+)*.[a-zA-Z]{2,}$";
                 return Regex.IsMatch(email,Pattern);
             }
+
+            public Boolean validNumber(string Number){
+                string Pattern = "^91 [0-9]{10}";
+                return Regex.IsMatch(Number,Pattern);
+            }
       
         }
 
